@@ -70,14 +70,14 @@ public class Main {
         //This is not static so we have to create a Random object
 
         //create a Random object
+        Random randObj = new Random();
 
         //get int with and without bound
+        int randInt = randObj.nextInt();
+        System.out.println(randInt);
 
         // get double
-
-
-
-
-
+        double randDouble = randObj.nextDouble();
+        System.out.println(randDouble);
     }
 }
