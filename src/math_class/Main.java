@@ -1,6 +1,6 @@
 package math_class;
 
-/**
+/*
  * https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Math.html
  */
 
@@ -41,15 +41,28 @@ public class Main {
 
         // create a random number in the range [0,n]
         // ex: [0,6]
+        int random3 = (int) (7 * Math.random());
+        System.out.println(random3);
 
         // create a random number in the range [m,n]
+        // ex: [1,7]
+        int random4 = 1 + (int) (7 * Math.random());
+        System.out.println(random4);
 
         // Creat a random negative integer in the range [-m, 0]
+        // ex: [-6,0]
+        int random5 =  (int) (-7 * Math.random());
+        System.out.println(random5);
 
         // Creat a random negative integer in the range [-m, -n]
+        // ex: [-7,-1]
+        int random6 = -1 + (int) (-7 * Math.random());
+        System.out.println(random6);
 
         // Creat a random negative integer in the range [-m, n]
-
+        // ex: [-7,1]
+        int random7 = 1 + (int) (-7 * Math.random());
+        System.out.println(random7);
 
 
 
