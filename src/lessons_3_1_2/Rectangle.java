@@ -15,9 +15,7 @@ public class Rectangle {
      * Determines if a rectangle is a square
      * @return true if the rectangle is a square, false if it is not
      */
-    public boolean isSquare(){
-        return true; //change this
-    }
+    public boolean isSquare(){return this.width == this.height;}
 
     public boolean equals(Rectangle r) {
         if (this == r) return true;
