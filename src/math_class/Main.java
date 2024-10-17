@@ -17,20 +17,39 @@ public class Main {
         // ClassName.staticVariableName(); e.g. Math.PI
 
         // abs
+        int num1 = -2;
+        System.out.println(Math.abs(num1));
 
         // pow
+        double num2 = Math.pow(3,5);
+        System.out.println(num2);
 
         // sqrt
-
+        double num3 = Math.sqrt(80);
+        System.out.println(num3);
 
 
         //create a random number in the range [0,1)
-
+        double random1 = Math.random();
+        System.out.println(random1);
         //create a random number in the range [0, n)
+        // ex: [0,6)
+        double random2 = 6 * Math.random();
+        System.out.println(random2);
+
+        //For homework
 
         // create a random number in the range [0,n]
+        // ex: [0,6]
 
         // create a random number in the range [m,n]
+
+        // Creat a random negative integer in the range [-m, 0]
+
+        // Creat a random negative integer in the range [-m, -n]
+
+        // Creat a random negative integer in the range [-m, n]
+
 
 
 
