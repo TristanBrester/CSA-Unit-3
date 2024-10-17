@@ -1,9 +1,10 @@
 package math_class;
 
-/*
+/**
  * https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/Math.html
  */
 
+import java.math.MathContext;
 import java.util.Random;
 
 public class Main {
@@ -16,18 +17,20 @@ public class Main {
         // ClassName.methodName(); e.g. Math.random()
         // ClassName.staticVariableName(); e.g. Math.PI
 
+        double myPI = Math.PI;
+
         // abs
         int num1 = -2;
         System.out.println(Math.abs(num1));
 
         // pow
         double num2 = Math.pow(3,5);
-        System.out.println(num2);
+        System.out.println(num2); //cast to int if you want that
 
         // sqrt
         double num3 = Math.sqrt(80);
         System.out.println(num3);
-
+        System.out.println(Math.pow(num3,2)); //round off error
 
         //create a random number in the range [0,1)
         double random1 = Math.random();
@@ -64,7 +67,13 @@ public class Main {
         int random7 = 1 + (int) (-7 * Math.random());
         System.out.println(random7);
 
+        // 4) create a random negative integer in the range [-m,n]
 
+
+
+
+
+        // Save for Thursday
 
         //using the Random Class
         //This is not static so we have to create a Random object

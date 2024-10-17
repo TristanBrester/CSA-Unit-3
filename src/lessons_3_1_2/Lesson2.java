@@ -1,5 +1,4 @@
 package lessons_3_1_2;
-import java.util.Scanner;
 
 public class Lesson2 {
     public static void main(String[] args) {
