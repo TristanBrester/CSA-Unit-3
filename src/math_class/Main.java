@@ -76,6 +76,10 @@ public class Main {
         int randInt = randObj.nextInt();
         System.out.println(randInt);
 
+        //with bound
+        int randInt2 = randObj.nextInt(100);
+        System.out.println(randInt2);
+
         // get double
         double randDouble = randObj.nextDouble();
         System.out.println(randDouble);
